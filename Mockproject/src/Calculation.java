@@ -25,5 +25,9 @@ public class Calculation {
 		int res=a*b;
 		System.out.println(res);
 	}
+	public static void div(int a, int b) {
+		int res=a/b;
+		System.out.println(res);
+	}
 
 }

@@ -10,6 +10,7 @@ public class Calculation {
      a= s.nextInt();
      b= s.nextInt();
      add(a,b);
+     mul(a,b);
 //     sub(a,b);
 //     mul(a,b);
 //     div(a,b);
@@ -19,6 +20,10 @@ public class Calculation {
 	public static int add(int a, int b) {
 		int res= a+b;
 		return res;
+	}
+	public static void mul(int a, int b) {
+		int res=a*b;
+		System.out.println(res);
 	}
 
 }

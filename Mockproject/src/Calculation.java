@@ -25,5 +25,8 @@ public class Calculation {
 		int res=a*b;
 		System.out.println(res);
 	}
-
+	public static void sub(int a, int b) {
+		int res=a-b;
+		System.out.println(res);
+	}
 }

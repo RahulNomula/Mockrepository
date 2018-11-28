@@ -7,26 +7,28 @@ public class Calculation {
 		// TODO Auto-generated method stub
      Scanner s=new Scanner(System.in);
      int a,b;
-     a= s.nextInt();
-     b= s.nextInt();
+     a=3;
+     b= 2;
      add(a,b);
      mul(a,b);
-//     sub(a,b);
+     sub(a,b);
 //     mul(a,b);
 //     div(a,b);
 //     min(a,b);
 //     max(a,b);
      }
-	public static int add(int a, int b) {
+	public static void add(int a, int b) {
 		int res= a+b;
-		return res;
+		System.out.println(res);
+		
 	}
-	public static void mul(int x, int y) {
-		int res=x*y;
+	public static void mul(int a, int b) {
+		int res=a*b;
 		System.out.println(res);
 	}
-	public static void div(int a, int b) {
-		int res=a/b;
+
+	public static void sub(int a, int b) {
+		int res=a-b;
 		System.out.println(res);
 	}
 

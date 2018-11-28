@@ -8,7 +8,7 @@ public class Calculation {
      Scanner s=new Scanner(System.in);
      int a,b;
      a= 3;
-     b= 2;
+     b= 1;
      add(a,b);
      mul(a,b);
      sub(a,b);

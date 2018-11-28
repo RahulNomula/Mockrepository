@@ -11,7 +11,7 @@ public class Calculation {
      b= s.nextInt();
      add(a,b);
      mul(a,b);
-//     sub(a,b);
+     sub(a,b);
 //     mul(a,b);
 //     div(a,b);
 //     min(a,b);
@@ -23,6 +23,11 @@ public class Calculation {
 	}
 	public static void mul(int a, int b) {
 		int res=a*b;
+		System.out.println(res);
+	}
+
+	public static void sub(int a, int b) {
+		int res=a-b;
 		System.out.println(res);
 	}
 

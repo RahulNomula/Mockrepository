@@ -21,8 +21,8 @@ public class Calculation {
 		int res= a+b;
 		return res;
 	}
-	public static void mul(int a, int b) {
-		int res=a*b;
+	public static void mul(int x, int y) {
+		int res=x*y;
 		System.out.println(res);
 	}
 

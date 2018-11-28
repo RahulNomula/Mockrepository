@@ -7,8 +7,8 @@ public class Calculation {
 		// TODO Auto-generated method stub
      Scanner s=new Scanner(System.in);
      int a,b;
-     a= s.nextInt();
-     b= s.nextInt();
+     a=3;
+     b= 2;
      add(a,b);
      mul(a,b);
      sub(a,b);

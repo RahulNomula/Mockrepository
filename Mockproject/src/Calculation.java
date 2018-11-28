@@ -12,6 +12,7 @@ public class Calculation {
      add(a,b);
      mul(a,b);
      sub(a,b);
+     module(a,b);
 //     mul(a,b);
 //     div(a,b);
 //     min(a,b);
@@ -30,6 +31,12 @@ public class Calculation {
 	public static void sub(int a, int b) {
 		int res=a-b;
 		System.out.println(res);
+	}
+	
+	
+	public static void module(int a, int b){
+		int mod = a%b;
+		System.out.println(mod);
 	}
 
 }
